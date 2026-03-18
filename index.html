@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentora Hub | Consultancy Services</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<section class="header">
+    <nav>
+        <a href="#"><img src="images/jaijaishriradheshyam.png" alt="Mentora Hub Logo"></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#features">WHY US</a></li>
+                <li><a href="#testimonials">REVIEWS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Mentora Hub</h1>
+        <p>Expert Career Guidance & Consultancy to Shape Your Future</p>
+        <a href="#contact" class="hero-btn">Book a Consultation</a>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="course" id="services">
+    <h1>Our Services</h1>
+    <p>We help you make the right career decisions.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Career Counseling</h3>
+            <p>Personalized guidance based on your strengths.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Resume & Interview Prep</h3>
+            <p>Build strong resumes and crack interviews.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Placement Support</h3>
+            <p>We connect you with opportunities.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+    <h1>Why Choose Mentora Hub?</h1>
+
+    <div class="row">
+        <div class="feature-col">
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Expert Mentors</h3>
+            <p>Real industry experience.</p>
+        </div>
+
+        <div class="feature-col">
+            <i class="fa-solid fa-handshake"></i>
+            <h3>Personalized Approach</h3>
+            <p>Tailored mentorship.</p>
+        </div>
+
+        <div class="feature-col">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Proven Results</h3>
+            <p>Career growth success.</p>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+    <h1>Success Stories</h1>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <p>"Mentora Hub boosted my confidence."</p>
+            <h3>- Aditi Sharma</h3>
+        </div>
+
+        <div class="testimonial-col">
+            <p>"I landed my first job thanks to them."</p>
+            <h3>- Rahul Verma</h3>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="cta" id="contact">
+    <h1>Contact Mentora Hub</h1>
+    <p>We’d love to guide your career journey</p>
+
+    <!-- Email always clickable -->
+    <a href="mailto:mentorahubexpertz@gmail.com" class="hero-btn">
+        <i class="fa-solid fa-envelope"></i> Email Us
+    </a>
+
+    <!-- Call button for phones -->
+    <a href="tel:8698939306" class="hero-btn call-btn">
+        <i class="fa-solid fa-phone"></i> Call Us
+    </a>
+
+    <!-- Always visible contact info -->
+    <div class="contact-info">
+        <p>Phone: 8698939306</p>
+        <p>Email: mentorahubexpertz@gmail.com</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<section class="footer">
+    <h4>Mentora Hub</h4>
+    <p>Follow us on social media</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+    <p>© 2026 Mentora Hub | All Rights Reserved</p>
+</section>
+
+<!-- JS MENU -->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
